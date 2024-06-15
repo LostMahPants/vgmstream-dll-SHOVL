@@ -1,0 +1,22 @@
+# project
+.vs
+.vscode
+.idea
+*.json
+
+# build
+cmake-build-debug-mingw
+cmake-build-release-mingw
+build
+build_exe
+*.so
+*.dll
+*.dylib
+*.exe
+
+# script
+*.bat
+!batch_files/*.bat
+*.sh
+!shell_scripts/*.sh
+memo*
